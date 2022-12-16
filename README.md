@@ -4,9 +4,8 @@
   + I use SVM(support vector machine)(final)
 ``` Python
 SVC(C=25,kernel='rbf',gamma=0.8,random_state=0,probability=True)
-```
-  + 
-  + + I used knn
+``` 
+    + I used knn
   ```
   KNeighborsClassifier(n_neighbors=1)
   ```
