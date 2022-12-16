@@ -12,5 +12,5 @@ SVC(C=25,kernel='rbf',gamma=0.8,random_state=0,probability=True)
 
 #### My Info
 > 20220742_AI학과_정의연
-> antt6942@gmail.com
-> chung_ung_univ AI Department
+>> antt6942@gmail.com
+>>> chung_ung_univ AI Department
