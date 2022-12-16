@@ -8,4 +8,4 @@
 SVC(C=25,kernel='rbf',gamma=0.8,random_state=0,probability=True)
 ```
 + Operating instructions
-  + download 'tumor_datset' and open in 'jupyter notebook'
+  + download `tumor_datset` and open in 'jupyter notebook'
