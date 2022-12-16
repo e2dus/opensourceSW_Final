@@ -5,20 +5,20 @@
 ``` Python
 SVC(C=25,kernel='rbf',gamma=0.8,random_state=0,probability=True)
 ```
-  +I used knn
+  + I used knn
   ```
   KNeighborsClassifier(n_neighbors=1)
   ```
-  +I used histgradientboosting
+  + I used histgradientboosting
   ```
   histgradintboosting(random_state=0)
   ```
   
-  +I used randomforest
+  + I used randomforest
   ```
   RandomForestClassifier()
   ```
-  +I used optuna for hyperparameter tuning
+  + I used optuna for hyperparameter tuning
   ```
   pip install optuna
 from optuna import Trial, visualization
@@ -54,12 +54,12 @@ study.optimize(lambda trial : objective(trial, X_train, y_train, X_test2,y_test2
 print('Best trial : score {}, \nparams {}'.format(study.best_trial.value, study.best_trial.params))
 ```
   
-  +I used voting classifier
+  + I used voting classifier
 ```
 VotingClassifier(estimators=[
         ('lr', clf1), ('rf', clf2), ('gnb', clf3),('df',clf4)], voting='hard') 
 ```
-  +I changed test size(0.3->0.001)
+  + I changed test size(0.3->0.001)
   ```
   X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y, test_size=0.001, random_state=0)
   ```
