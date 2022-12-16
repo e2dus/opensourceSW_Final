@@ -6,11 +6,18 @@
 SVC(C=25,kernel='rbf',gamma=0.8,random_state=0,probability=True)
 ```
   +I used knn
-  
+  ```
+  KNeighborsClassifier(n_neighbors=1)
+  ```
   +I used histgradientboosting
+  ```
+  histgradintboosting(random_state=0)
+  ```
   
   +I used randomforest
-  
+  ```
+  RandomForestClassifier()
+  ```
   +I used optuna for hyperparameter tuning
   ```
   pip install optuna
@@ -48,7 +55,10 @@ print('Best trial : score {}, \nparams {}'.format(study.best_trial.value, study.
 ```
   
   +I used voting classifier
-
+```
+VotingClassifier(estimators=[
+        ('lr', clf1), ('rf', clf2), ('gnb', clf3),('df',clf4)], voting='hard') 
+```
 
 + Operating instructions
   + download `tumor_datset` and open in `jupyter notebook`
