@@ -5,16 +5,17 @@
 ``` Python
 SVC(C=25,kernel='rbf',gamma=0.8,random_state=0,probability=True)
 ```
-  + I used knn
+  + 
+  + + I used knn
   ```
   KNeighborsClassifier(n_neighbors=1)
   ```
-  + I used histgradientboosting
+  ++ I used histgradientboosting
   ```
   histgradintboosting(random_state=0)
   ```
   
-  + I used randomforest
+  ++I used randomforest
   ```
   RandomForestClassifier()
   ```
