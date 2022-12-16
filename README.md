@@ -3,4 +3,4 @@
 ##### 연락처:antt6942@gmail.com
 ------------
 + Configuration instructions
-  +I use SVM(support vector machine)
+  + I use SVM(support vector machine)
