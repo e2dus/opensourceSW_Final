@@ -59,6 +59,10 @@ print('Best trial : score {}, \nparams {}'.format(study.best_trial.value, study.
 VotingClassifier(estimators=[
         ('lr', clf1), ('rf', clf2), ('gnb', clf3),('df',clf4)], voting='hard') 
 ```
+  +I changed test size(0.3->0.001)
+  ```
+  X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y, test_size=0.001, random_state=0)
+  ```
 
 + Operating instructions
   + download `tumor_datset` and open in `jupyter notebook`
