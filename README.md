@@ -63,7 +63,10 @@ VotingClassifier(estimators=[
   ```
   X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(X, y, test_size=0.001, random_state=0)
   ```
-
+  + I used Adaboosting
+  ```
+  AdaBoostClassifier(SVC(C=25,kernel='rbf',gamma=0.8,random_state=0,probability=True),learning_rate=0.7,n_estimators=5, random_state=0)
+  ```
 + Operating instructions
   + download `tumor_datset` and open in `jupyter notebook`
 + Copyright and licensing information
