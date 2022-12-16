@@ -5,5 +5,5 @@
 + Configuration instructions
   + I use SVM(support vector machine)
 '''python
-    SVC(C=25,kernel='rbf',gamma=0.8,random_state=0,probability=True)
+SVC(C=25,kernel='rbf',gamma=0.8,random_state=0,probability=True)
 '''
